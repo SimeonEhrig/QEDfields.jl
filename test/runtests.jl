@@ -14,7 +14,7 @@ end
     @testset "Integration: QEDbase" begin
       
       @test isinstalled("QEDbase")
-      @test length(dummy_QEDbase(rand(4)))==4
+      @test length(dummy_QEDbase(rand(5)))==4
     end
 
 
